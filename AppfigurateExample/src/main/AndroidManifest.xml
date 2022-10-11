@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+          xmlns:tools="http://schemas.android.com/tools" package="nz.co.electricbolt.appfigurateexample">
+
+    <application
+            android:allowBackup="false"
+            android:icon="@mipmap/ic_launcher"
+            android:label="@string/app_name"
+            android:roundIcon="@mipmap/ic_launcher_round"
+            android:theme="@style/AppTheme">
+
+        <activity android:name=".MainActivity"
+                  android:exported="true">
+
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+
+        <!-- APLLogging is optional. The default value of APLLogging is false.
+        You should not enable this to true unless you are having trouble integrating the library.
+        It is best practice not to ship an app with this key set to true.-->
+        <meta-data
+                android:name="APLLogging"
+                android:value="false"/>
+
+        <!-- APLConfigurationSubclass is mandatory. -->
+        <meta-data
+                android:name="APLConfigurationSubclass"
+                android:value=".ExampleConfiguration"/>
+
+        <!-- CommandContentProvider is mandatory -->
+        <provider
+                android:authorities="example"
+                android:name="nz.co.electricbolt.appfiguratelibrary.CommandContentProvider"
+                android:exported="true" tools:ignore="ExportedContentProvider">
+        </provider>
+
+    </application>
+
+</manifest>
