@@ -2,7 +2,7 @@
 
 Demonstrates how to integrate Appfigurate SDK into a Kotlin, Android app. UI automation testing using Espresso.
 
-Developed with Android Studio Electric Ladybug 2024.2.1 Patch 2
+Developed with Android Studio Meerkat Feature Drop | 2024.3.2 Patch 1
 
 Documentation for Appfigurate is available at [docs.electricbolt.co.nz](https://docs.electricbolt.co.nz).
 

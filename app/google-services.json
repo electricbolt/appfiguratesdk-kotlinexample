@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "1034717846877",
+    "project_id": "appfigurate-example",
+    "storage_bucket": "appfigurate-example.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1034717846877:android:8f14893f1f5d1fd82fdcb4",
+        "android_client_info": {
+          "package_name": "nz.co.electricbolt.appfigurateexample"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAzh_Wnr_cadYH2-JiPAzqCiCPiHhF1XF0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
